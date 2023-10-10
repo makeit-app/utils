@@ -14,8 +14,25 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^7.4|^8.1|^8.2|^8.3",
+    },
     "require-dev": {
         "laravel/pint": "^1.0"
+    },
+    "extra": {
+      "branch-alias": {
+        "dev-main": "1.x.x-dev"
+      },
+      "laravel": {
+        "aliases": {
+          "Sorter": "MakeIT\\Utils\\Sorter"
+        }
+      }
+    },
+    "autoload": {
+      "psr-4": {
+        "MakeIT\\Utils\\": "src/"
+      }
     }
 }
