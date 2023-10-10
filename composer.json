@@ -1,0 +1,21 @@
+{
+    "name": "make-it-app/utils",
+    "description": "Just some utils for my packages",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MakeIT\\Utils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stanislav Kabin",
+            "email": "ioffline@make-it.app"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "laravel/pint": "^1.0"
+    }
+}
