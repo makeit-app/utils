@@ -13,16 +13,16 @@
             "email": "ioffline@make-it.app"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "php": "^7.4|^8.1|^8.2|^8.3",
+        "php": "^7.4|^8.1|^8.2|^8.3"
     },
     "require-dev": {
         "laravel/pint": "^1.0"
     },
     "extra": {
       "branch-alias": {
-        "dev-main": "1.x.x-dev"
+        "dev-madter": "1.x.x-dev"
       },
       "laravel": {
         "aliases": {
