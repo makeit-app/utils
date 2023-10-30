@@ -2,24 +2,22 @@
     "name": "make-it-app/utils",
     "description": "Just some utils for my packages",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "MakeIT\\Utils\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Stanislav Kabin",
             "email": "ioffline@make-it.app"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require": {
         "php": "^7.4|^8.1|^8.2|^8.3"
     },
     "require-dev": {
         "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MakeIT\\Utils\\": "src/"
+        }
     },
     "extra": {
       "branch-alias": {
@@ -31,9 +29,14 @@
         }
       }
     },
-    "autoload": {
-      "psr-4": {
-        "MakeIT\\Utils\\": "src/"
-      }
-    }
+    "support": {
+      "issues": "https://github.com/make-it-app/utils/issues",
+      "source": "https://github.com/make-it-app/utils"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
